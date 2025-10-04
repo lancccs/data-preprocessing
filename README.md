@@ -33,6 +33,8 @@ capstone25-t3-kch/
 │           ├─ utils.py
 │           └─ zipmap_prefix.py      # 3자리 우편번호 prefix 매핑 로직
 └─ frontend/
+```
+
 
 
 1. 프로젝트/레포 세팅,
