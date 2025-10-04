@@ -2,7 +2,7 @@
 
 2025.10.04 개발 내용
 
-
+'''
 capstone25-t3-kch/
 ├─ .gitignore
 ├─ README.md
@@ -32,7 +32,7 @@ capstone25-t3-kch/
 │           └─ zipmap_prefix.py               # 3자리 우편번호 prefix 매핑 로직
 ├─ frontend/
 │ 
-
+'''
 
 1. 프로젝트/레포 세팅,
     - backend/api-server 백엔드 작업 폴더 정리
