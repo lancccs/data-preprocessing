@@ -2,6 +2,38 @@
 
 2025.10.04 개발 내용
 
+
+capstone25-t3-kch/
+├─ .gitignore
+├─ README.md
+├─ package.json
+├─ yarn.lock
+├─ backend/
+│  └─ api-server/
+│     ├─ .env.example                         #업데이트
+│     ├─ .python-version
+│     ├─ README.md
+│     ├─ main.py                              #업데이트
+│     ├─ pyproject.toml
+│     ├─ requirements.txt                     #업데이트
+│     ├─ routes/                              #생성
+│     │  └─ policies.py
+│     └─ data/                                #생성
+│        └─ zip_prefix_regions.csv            # 3자리 우편번호 → 지역 매핑
+│     └─ jobs/                                #생성
+│        ├─ __init__.py
+│        └─ ontong/
+│           ├─ __init__.py
+│           ├─ fetch_and_clean.py             # 원천 수집/클린
+│           ├─ preprocess.py                  # 전처리 파이프라인
+│           ├─ quality.py                     # 품질 점검
+│           ├─ storage_pg.py                  # PostgreSQL 저장 유틸
+│           ├─ utils.py
+│           └─ zipmap_prefix.py               # 3자리 우편번호 prefix 매핑 로직
+├─ frontend/
+│ 
+
+
 1. 프로젝트/레포 세팅,
     - backend/api-server 백엔드 작업 폴더 정리
     -.env 구성 및 requirements.txt 업데이트
